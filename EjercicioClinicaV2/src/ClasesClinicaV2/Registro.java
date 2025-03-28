@@ -36,6 +36,7 @@ public class Registro {
 
 	@Override
 	public String toString() {
-		return "Registro [diagnostico=" + diagnostico + ", tratamiento=" + tratamiento + ", cita=" + cita + "]";
+	    return " Su Diagnostico: " + diagnostico +
+	           ", Y su tratamiento: " + tratamiento + ".";
 	}
 }

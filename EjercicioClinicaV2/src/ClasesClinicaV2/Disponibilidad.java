@@ -38,6 +38,6 @@ public class Disponibilidad {
 
 	@Override
 	public String toString() {
-		return "Disponibilidad [mes=" + mes + ", dia=" + dia + "]";
+		return " La Disponibilidad es el mes: " + mes + ", el dia: " + dia + ".";
 	}
 }

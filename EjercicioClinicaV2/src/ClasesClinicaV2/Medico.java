@@ -44,6 +44,6 @@ public class Medico extends Persona {
 	
 	@Override
 	public String toString() {
-		return "Medico [id=" + id + ", nombre=" + nombre + ", fecha=" + fecha + ", disponible=" + disponible + "]";
+		return "Su Medico asignado es el : " + id + ", con nombre: " + nombre + " - "+ fecha + ", y disponible en : " + disponible + ".";
 	}
 }

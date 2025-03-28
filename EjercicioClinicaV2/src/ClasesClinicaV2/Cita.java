@@ -57,7 +57,7 @@ public class Cita {
 
 	@Override
 	public String toString() {
-		return "Cita [fecha=" + fecha + ", paciente=" + paciente + ", medico=" + medico + ", motivo=" + motivo
-				+ ", registroMedico=" + registroMedico + "]";
+		return "La fecha de su cita es:" + fecha + ", Su ID es:" + paciente + ", El Medico Asignado es:" + medico + ", Y el motivo registrado es: " + motivo
+				+ ", Finalizando con un registro Medico donde ud debe seguir: " + registroMedico + "]";
 	}
 }

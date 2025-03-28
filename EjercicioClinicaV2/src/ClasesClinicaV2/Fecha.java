@@ -37,6 +37,6 @@ public class Fecha {
 
 	@Override
 	public String toString() {
-		return "Fecha [dia=" + dia + ", mes=" + mes + ", hora=" + hora + "]";
+		return " La Fecha asignada es el dia: " + dia + ", en el mes: " + mes + " a las : " + hora + ".";
 	}
 }
