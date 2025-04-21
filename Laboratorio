@@ -1,0 +1,246 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.2.13">
+  <diagram name="Página-1" id="ckcz53LpqCvcScPSApWP">
+    <mxGraphModel dx="2890" dy="2119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-1" value="&lt;i&gt;Cuenta&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="54" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-2" value="- NumeroProducto: String&lt;div&gt;- AnioApertura: Int&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Titular: Titular&lt;/div&gt;&lt;div&gt;- Saldo: Double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="lWTYzVFPkOtiKZsbQE9d-1" vertex="1">
+          <mxGeometry y="26" width="180" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="lWTYzVFPkOtiKZsbQE9d-1" vertex="1">
+          <mxGeometry y="100" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-4" value="+ MostrarContenido(): Void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="lWTYzVFPkOtiKZsbQE9d-1" vertex="1">
+          <mxGeometry y="108" width="180" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-5" value="&amp;nbsp;Corriente" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="314" y="270" width="200" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-6" value="- FechaUltimoMovimiento: Date&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- ValorMovimiento: Double&lt;/span&gt;&lt;div&gt;- TipoOperacion: String&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="lWTYzVFPkOtiKZsbQE9d-5" vertex="1">
+          <mxGeometry y="26" width="200" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="lWTYzVFPkOtiKZsbQE9d-5" vertex="1">
+          <mxGeometry y="80" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-9" value="&amp;nbsp;Ahorro" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="190" width="160" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-10" value="- FechaUltimoRetiro: Int&lt;div&gt;- ValorRetiro: Double&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="lWTYzVFPkOtiKZsbQE9d-9" vertex="1">
+          <mxGeometry y="26" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="lWTYzVFPkOtiKZsbQE9d-9" vertex="1">
+          <mxGeometry y="60" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-13" value="&amp;nbsp;Vivienda" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="202" width="160" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-14" value="- PrecioVivienda: Double&lt;div&gt;- TipoVivienda: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="lWTYzVFPkOtiKZsbQE9d-13" vertex="1">
+          <mxGeometry y="26" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="lWTYzVFPkOtiKZsbQE9d-13" vertex="1">
+          <mxGeometry y="60" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-30" value="Financiera" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="-106" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-31" value="- Cuenta List&amp;lt;Cuenta&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="lWTYzVFPkOtiKZsbQE9d-30" vertex="1">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="lWTYzVFPkOtiKZsbQE9d-30" vertex="1">
+          <mxGeometry y="52" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-33" value="+ CrearCuenta()&lt;div&gt;+ Deposito()&lt;/div&gt;&lt;div&gt;+ Retiro()&lt;/div&gt;&lt;div&gt;+ MostrarCuentas()&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ MostrarCuentasAhorro()&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="lWTYzVFPkOtiKZsbQE9d-30" vertex="1">
+          <mxGeometry y="60" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-34" value="Titular" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-120" width="180" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-35" value="- Id: Int&lt;div&gt;- Nombre: String&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Correo: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="lWTYzVFPkOtiKZsbQE9d-34" vertex="1">
+          <mxGeometry y="26" width="180" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="lWTYzVFPkOtiKZsbQE9d-34" vertex="1">
+          <mxGeometry y="80" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-45" value="&lt;b&gt;ES UNA&lt;/b&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lWTYzVFPkOtiKZsbQE9d-9" target="lWTYzVFPkOtiKZsbQE9d-2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="100" y="90" as="sourcePoint" />
+            <mxPoint x="260" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-46" value="&lt;b&gt;ES UNA&lt;/b&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lWTYzVFPkOtiKZsbQE9d-13" target="lWTYzVFPkOtiKZsbQE9d-2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="164.5" as="sourcePoint" />
+            <mxPoint x="780" y="91.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-47" value="&lt;b&gt;ES UNA&lt;/b&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.519;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lWTYzVFPkOtiKZsbQE9d-5" target="lWTYzVFPkOtiKZsbQE9d-4" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="285.5" as="sourcePoint" />
+            <mxPoint x="420" y="212.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-17" value="Tarjeta de Credito" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="-83" width="160" height="88" as="geometry">
+            <mxRectangle y="34" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-18" value="- Cupo: Double&lt;div&gt;- FechaUltimaCompra: Date&lt;/div&gt;&lt;div&gt;- ValorCompra: Double&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="lWTYzVFPkOtiKZsbQE9d-17" vertex="1">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="lWTYzVFPkOtiKZsbQE9d-17" vertex="1">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-48" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1.001;entryY=0.368;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="lWTYzVFPkOtiKZsbQE9d-1" target="lWTYzVFPkOtiKZsbQE9d-33" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="19.5" as="sourcePoint" />
+            <mxPoint x="320" y="19.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-49" value="&lt;b&gt;CONTIENE&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lWTYzVFPkOtiKZsbQE9d-48" vertex="1" connectable="0">
+          <mxGeometry x="-0.0999" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-50" value="&lt;b&gt;HEREDA&lt;/b&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="lWTYzVFPkOtiKZsbQE9d-18" target="lWTYzVFPkOtiKZsbQE9d-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="720" y="139" as="sourcePoint" />
+            <mxPoint x="500" y="54" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-51" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="lWTYzVFPkOtiKZsbQE9d-1" target="lWTYzVFPkOtiKZsbQE9d-34" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="340" y="20" as="sourcePoint" />
+            <mxPoint x="500" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-52" value="&lt;b&gt;1..*&lt;/b&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" parent="lWTYzVFPkOtiKZsbQE9d-51" connectable="0" vertex="1">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-53" value="&lt;b&gt;TIENE UN&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lWTYzVFPkOtiKZsbQE9d-51" vertex="1" connectable="0">
+          <mxGeometry x="-0.1256" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-55" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-350" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-54" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Requisitos&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;&quot; data-end=&quot;2693&quot; data-start=&quot;2681&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;✅&amp;nbsp;&lt;/span&gt;Herencia&lt;/span&gt;&lt;br data-end=&quot;2696&quot; data-start=&quot;2693&quot;&gt;&lt;br&gt;✅ &lt;span style=&quot;&quot; data-end=&quot;2717&quot; data-start=&quot;2698&quot;&gt;Clase abstracta&lt;/span&gt;&lt;br data-end=&quot;2720&quot; data-start=&quot;2717&quot;&gt;&lt;br&gt;✅ &lt;span style=&quot;&quot; data-end=&quot;2738&quot; data-start=&quot;2722&quot;&gt;Polimorfismo&lt;/span&gt;&lt;/p&gt;&lt;p&gt;✅ Interfaces&lt;br data-end=&quot;2741&quot; data-start=&quot;2738&quot;&gt;&lt;br&gt;✅ Clase&lt;span style=&quot;&quot; data-end=&quot;2779&quot; data-start=&quot;2743&quot;&gt;&amp;nbsp;&lt;code style=&quot;&quot; data-end=&quot;2777&quot; data-start=&quot;2765&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;Financiera &lt;/font&gt;Como Main&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="-350" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-61" value="&amp;lt;&amp;lt;Interfase&amp;gt;&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="-250" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-62" value="Imprimible" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="lWTYzVFPkOtiKZsbQE9d-61" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-63" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="lWTYzVFPkOtiKZsbQE9d-61" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-64" value="&lt;div&gt;+ mostrarContenido(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="lWTYzVFPkOtiKZsbQE9d-61" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-65" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.574;entryY=0.874;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="lWTYzVFPkOtiKZsbQE9d-1" target="lWTYzVFPkOtiKZsbQE9d-64" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="190" y="-10" as="sourcePoint" />
+            <mxPoint x="350" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-66" value="&lt;b&gt;IMPLEMENTA&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lWTYzVFPkOtiKZsbQE9d-65" vertex="1" connectable="0">
+          <mxGeometry x="-0.0068" y="-3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWTYzVFPkOtiKZsbQE9d-67" value="&lt;b&gt;&lt;i&gt;Juan Esteban Gómez Castañeda&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="-330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-7" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-25" y="-460" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-3" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Se incluyó una interfaz llamada &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;131&quot; data-start=&quot;119&quot;&gt;Imprimible&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, la cual declara el método &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;179&quot; data-start=&quot;159&quot;&gt;mostrarContenido()&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;. Esta interfaz es implementada por la clase abstracta &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;242&quot; data-start=&quot;234&quot;&gt;Cuenta&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, y gracias a la herencia, todas sus clases derivadas también adquieren dicho método, permitiendo el uso de polimorfismo de manera clara y estructurada sin importar el Tipo&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-460" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-6" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="-264" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-5" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;La interfaz permite tratar de forma uniforme a todas las cuentas para imprimir sus datos, sin importar su tipo&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-263" y="-237" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-9" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="-93.5" width="270" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-8" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;La clase Financiera contiene la lista de cuentas y los métodos principales (crear, depositar, retirar, mostrar),&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;y gestiona los objetos que sí implementan Imprimible, aunque ella misma no lo implemente&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="-106" width="240" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-152" y="-23.5" as="sourcePoint" />
+            <mxPoint x="-92" y="-23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-15" y="-207.70999999999998" as="sourcePoint" />
+            <mxPoint x="45" y="-207.20999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="129" y="-330" as="sourcePoint" />
+            <mxPoint x="128.57" y="-264" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-15" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="290" y="440" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-14" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Las cuentas derivadas heredan los atributos comunes definidos en la clase abstracta &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;151&quot; data-start=&quot;143&quot;&gt;Cuenta&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; e implementan sus propios atributos específicos según el tipo de cuenta.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="298" y="464" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413.43000000000006" y="430" as="sourcePoint" />
+            <mxPoint x="413" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285.43000000000006" y="440" as="sourcePoint" />
+            <mxPoint x="100" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-18" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="430" as="sourcePoint" />
+            <mxPoint x="720" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-20" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-360" width="190" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-19" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;La clase &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;268&quot; data-start=&quot;259&quot;&gt;Titular&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; representa la persona asociada a una cuenta. No hereda de ninguna clase ni implementa la interfaz &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;379&quot; data-start=&quot;367&quot;&gt;Imprimible&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, ya que su información es accedida y mostrada directamente desde el método &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;475&quot; data-start=&quot;455&quot;&gt;mostrarContenido()&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; de la clase &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;496&quot; data-start=&quot;488&quot;&gt;Cuenta&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;. Tiene una relación de asociación con &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;543&quot; data-start=&quot;535&quot;&gt;Cuenta&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, lo que indica que cada cuenta pertenece a un titular.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="699" y="-253" width="145" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="-220" as="sourcePoint" />
+            <mxPoint x="510" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="-39.91" as="sourcePoint" />
+            <mxPoint x="850" y="-39.91" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-25" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="957" y="-109" width="370" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="h_8tln9ZYSfVJIr2XpXa-22" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;673&quot; data-start=&quot;653&quot;&gt;Tarjeta de Crédito&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; es una clase derivada de &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;707&quot; data-start=&quot;699&quot;&gt;Cuenta&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;. Hereda los atributos y el método abstracto &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;772&quot; data-start=&quot;752&quot;&gt;mostrarContenido()&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; desde la clase &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;796&quot; data-start=&quot;788&quot;&gt;Cuenta&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, pero tambien define atributos propios como &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;846&quot; data-start=&quot;840&quot;&gt;cupo&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;867&quot; data-start=&quot;848&quot;&gt;fechaUltimaCompra&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; y &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;883&quot; data-start=&quot;870&quot;&gt;valorCompra&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, que son específicos de este tipo de producto. Implementa su propia versión del método &lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;991&quot; data-start=&quot;971&quot;&gt;mostrarContenido()&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; para mostrar estos datos, cumpliendo con el principio de polimorfismo.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="-54" width="320" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
