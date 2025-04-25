@@ -529,7 +529,7 @@
         <mxCell id="dCMSMD34O4NTYjpiGfef-1" value="Duck" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="289" y="-50" width="280" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="dCMSMD34O4NTYjpiGfef-2" value="&lt;div&gt;- flyBehavior: FlyBehavior&lt;/div&gt;&lt;div&gt;- quackBehavior: QuackBehavior&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dCMSMD34O4NTYjpiGfef-1" vertex="1">
+        <mxCell id="dCMSMD34O4NTYjpiGfef-2" value="- nombre" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dCMSMD34O4NTYjpiGfef-1" vertex="1">
           <mxGeometry y="26" width="280" height="44" as="geometry" />
         </mxCell>
         <mxCell id="dCMSMD34O4NTYjpiGfef-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="dCMSMD34O4NTYjpiGfef-1" vertex="1">
@@ -588,8 +588,8 @@
         </mxCell>
         <mxCell id="UjrOYbSrrtLfBRZRW-fh-2" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="199.44" y="320" as="sourcePoint" />
-            <mxPoint x="199.44" y="250" as="targetPoint" />
+            <mxPoint x="189.38" y="320" as="sourcePoint" />
+            <mxPoint x="189.38" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UjrOYbSrrtLfBRZRW-fh-3" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
@@ -600,7 +600,7 @@
         </mxCell>
         <mxCell id="UjrOYbSrrtLfBRZRW-fh-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="250" as="sourcePoint" />
+            <mxPoint x="190" y="250" as="sourcePoint" />
             <mxPoint x="680" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
