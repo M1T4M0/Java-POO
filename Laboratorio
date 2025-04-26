@@ -496,7 +496,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dCMSMD34O4NTYjpiGfef-1" value="Duck" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="30" width="280" height="130" as="geometry" />
+          <mxGeometry x="440" y="50" width="280" height="110" as="geometry" />
         </mxCell>
         <mxCell id="dCMSMD34O4NTYjpiGfef-2" value="# Nombre: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dCMSMD34O4NTYjpiGfef-1" vertex="1">
           <mxGeometry y="26" width="280" height="24" as="geometry" />
@@ -505,7 +505,7 @@
           <mxGeometry y="50" width="280" height="8" as="geometry" />
         </mxCell>
         <mxCell id="dCMSMD34O4NTYjpiGfef-4" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ swim(): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;display()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dCMSMD34O4NTYjpiGfef-1" vertex="1">
-          <mxGeometry y="58" width="280" height="72" as="geometry" />
+          <mxGeometry y="58" width="280" height="52" as="geometry" />
         </mxCell>
         <mxCell id="dCMSMD34O4NTYjpiGfef-5" value="AlasCortas" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="320" width="160" height="34" as="geometry" />
