@@ -675,7 +675,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AF4sZu4MOqCRr61yTV9O" name="Parc">
-    <mxGraphModel dx="2063" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2281" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -690,6 +690,12 @@
         </mxCell>
         <mxCell id="LfZIKvbE11nCvl2VT3q0-4" value="&lt;div&gt;+ calcularBonificacion(): double&lt;/div&gt;&lt;div&gt;+ liquidarNomina(): double&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;/div&gt;&lt;div&gt;+ getAntiguedad(): int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LfZIKvbE11nCvl2VT3q0-1">
           <mxGeometry y="118" width="180" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-32" value="" style="endArrow=none;html=1;rounded=0;entryX=0.026;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LfZIKvbE11nCvl2VT3q0-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-44" y="159" as="sourcePoint" />
+            <mxPoint x="4.680000000000291" y="159.36799999999994" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="LfZIKvbE11nCvl2VT3q0-5" value="Vendedor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="144" y="495" width="180" height="90" as="geometry" />
@@ -739,18 +745,6 @@
             <mxPoint x="413.6600000000001" y="337.20799999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="orf2NmX3RiUvFOmpPiEB-1" value="Retorna un bono si tiene más de 10 años de antigüedad" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="507" y="274" width="320" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="orf2NmX3RiUvFOmpPiEB-2" value="Calcula la antigüedad actual del empleado" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="90" y="310" width="260" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="orf2NmX3RiUvFOmpPiEB-3" value="Método abstracto para calcular el salario total" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="516" y="281" width="280" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="orf2NmX3RiUvFOmpPiEB-4" value="Retorna una cadena con información básica&#xa;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="81" y="293" width="331" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="orf2NmX3RiUvFOmpPiEB-11" value="Cantidad de repartos realizados en el mes" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="690" y="527" width="260" height="40" as="geometry" />
         </mxCell>
@@ -763,11 +757,77 @@
         <mxCell id="orf2NmX3RiUvFOmpPiEB-14" value="Zona de reparto: A, B o C" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="690" y="545" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="orf2NmX3RiUvFOmpPiEB-15" value="Monto total de ventas realizadas por el vendedor" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-129" y="521" width="290" height="40" as="geometry" />
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-17" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Monto total de ventas realizadas por el vendedor&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="483" width="140" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="orf2NmX3RiUvFOmpPiEB-16" value="Retorna el 10% de las ventas como comisión" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-111" y="557" width="270" height="40" as="geometry" />
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-19" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=140;exitDy=51.5;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="orf2NmX3RiUvFOmpPiEB-17" target="LfZIKvbE11nCvl2VT3q0-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="520" as="sourcePoint" />
+            <mxPoint x="400" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-20" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Retorna el 10% de las ventas como comisión&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="168.5" y="640" width="140" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-21" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.524;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="orf2NmX3RiUvFOmpPiEB-20" target="LfZIKvbE11nCvl2VT3q0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="520" as="sourcePoint" />
+            <mxPoint x="400" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-22" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Método abstracto para calcular el salario total&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="601" y="255" width="140" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-24" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="293" as="sourcePoint" />
+            <mxPoint x="600" y="293" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-25" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Retorna un bono si tiene más de 10 años de antigüedad&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="711" y="146" width="140" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="190" as="sourcePoint" />
+            <mxPoint x="710" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="190" as="sourcePoint" />
+            <mxPoint x="560" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="280" as="sourcePoint" />
+            <mxPoint x="560" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-29" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Retorna una cadena con información básica&lt;div style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-12" y="148" width="140" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-30" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="197.91" as="sourcePoint" />
+            <mxPoint x="280" y="197.91" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-31" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="279" y="193" as="sourcePoint" />
+            <mxPoint x="280" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-33" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Calcula la antigüedad actual del empleado&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="67" y="274" width="140" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-34" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="208" y="321" as="sourcePoint" />
+            <mxPoint x="328" y="321" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
