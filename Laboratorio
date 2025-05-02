@@ -688,7 +688,7 @@
         <mxCell id="LfZIKvbE11nCvl2VT3q0-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LfZIKvbE11nCvl2VT3q0-1">
           <mxGeometry y="110" width="180" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="LfZIKvbE11nCvl2VT3q0-4" value="&lt;div&gt;+ calcularBonificacion(): double&lt;/div&gt;&lt;div&gt;+ liquidarNomina(): double&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;/div&gt;&lt;div&gt;+ getAntiguedad(): int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LfZIKvbE11nCvl2VT3q0-1">
+        <mxCell id="LfZIKvbE11nCvl2VT3q0-4" value="&lt;div&gt;+ calcularBonificacion(): double&lt;/div&gt;&lt;div&gt;+ liquidarNomina(): double&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;/div&gt;&lt;div&gt;+ Antiguedad(): int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LfZIKvbE11nCvl2VT3q0-1">
           <mxGeometry y="118" width="180" height="72" as="geometry" />
         </mxCell>
         <mxCell id="orf2NmX3RiUvFOmpPiEB-32" value="" style="endArrow=none;html=1;rounded=0;entryX=0.026;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LfZIKvbE11nCvl2VT3q0-1">
