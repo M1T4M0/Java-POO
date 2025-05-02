@@ -739,6 +739,18 @@
             <mxPoint x="413.6600000000001" y="337.20799999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-1" value="Retorna un bono si tiene más de 10 años de antigüedad" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="585" y="273" width="310" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-2" value="Calcula la antigüedad actual del empleado" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="585" y="278" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-3" value="Método abstracto para calcular el salario total" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="589" y="290" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-4" value="Retorna una cadena con información básica&#xa;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="589" y="310" width="331" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
