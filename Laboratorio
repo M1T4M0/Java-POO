@@ -675,7 +675,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AF4sZu4MOqCRr61yTV9O" name="Parc">
-    <mxGraphModel dx="1237" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2063" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -740,19 +740,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="orf2NmX3RiUvFOmpPiEB-1" value="Retorna un bono si tiene más de 10 años de antigüedad" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="585" y="273" width="310" height="10" as="geometry" />
+          <mxGeometry x="507" y="274" width="320" height="10" as="geometry" />
         </mxCell>
         <mxCell id="orf2NmX3RiUvFOmpPiEB-2" value="Calcula la antigüedad actual del empleado" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="585" y="278" width="260" height="40" as="geometry" />
+          <mxGeometry x="90" y="310" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="orf2NmX3RiUvFOmpPiEB-3" value="Método abstracto para calcular el salario total" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="589" y="290" width="280" height="40" as="geometry" />
+          <mxGeometry x="516" y="281" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="orf2NmX3RiUvFOmpPiEB-4" value="Retorna una cadena con información básica&#xa;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="589" y="310" width="331" height="20" as="geometry" />
+          <mxGeometry x="81" y="293" width="331" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="orf2NmX3RiUvFOmpPiEB-6" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="64" y="183" width="216" height="87" as="geometry" />
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-11" value="Cantidad de repartos realizados en el mes" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="527" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-12" value="Método privado que verifica si la zona es válida" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="691" y="605" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-13" value="Calcula el salario total con bonificación y repartos" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="576" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-14" value="Zona de reparto: A, B o C" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="545" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-15" value="Monto total de ventas realizadas por el vendedor" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-129" y="521" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-16" value="Retorna el 10% de las ventas como comisión" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-111" y="557" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
