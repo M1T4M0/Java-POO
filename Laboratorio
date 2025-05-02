@@ -675,7 +675,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AF4sZu4MOqCRr61yTV9O" name="Parc">
-    <mxGraphModel dx="2281" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3074" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -710,9 +710,9 @@
           <mxGeometry y="60" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LfZIKvbE11nCvl2VT3q0-9" value="Repartidor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="504" y="495" width="180" height="140" as="geometry" />
+          <mxGeometry x="830" y="495" width="180" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="LfZIKvbE11nCvl2VT3q0-10" value="&lt;div&gt;- numeroRepartos: int&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - zona: char&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LfZIKvbE11nCvl2VT3q0-9">
+        <mxCell id="LfZIKvbE11nCvl2VT3q0-10" value="&lt;div&gt;- numeroRepartos: int&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- zona: char&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LfZIKvbE11nCvl2VT3q0-9">
           <mxGeometry y="26" width="180" height="44" as="geometry" />
         </mxCell>
         <mxCell id="LfZIKvbE11nCvl2VT3q0-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LfZIKvbE11nCvl2VT3q0-9">
@@ -729,14 +729,14 @@
         </mxCell>
         <mxCell id="nCcYlBJ0mJ8DHztWwmZ2-3" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="600" y="495" as="sourcePoint" />
-            <mxPoint x="600" y="420" as="targetPoint" />
+            <mxPoint x="919.38" y="495" as="sourcePoint" />
+            <mxPoint x="919.38" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nCcYlBJ0mJ8DHztWwmZ2-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="232" y="420" as="sourcePoint" />
-            <mxPoint x="602" y="420" as="targetPoint" />
+            <mxPoint x="920" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nCcYlBJ0mJ8DHztWwmZ2-5" value="SON UN" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.487;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
@@ -744,18 +744,6 @@
             <mxPoint x="414" y="420" as="sourcePoint" />
             <mxPoint x="413.6600000000001" y="337.20799999999997" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="orf2NmX3RiUvFOmpPiEB-11" value="Cantidad de repartos realizados en el mes" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="690" y="527" width="260" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="orf2NmX3RiUvFOmpPiEB-12" value="Método privado que verifica si la zona es válida" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="691" y="605" width="290" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="orf2NmX3RiUvFOmpPiEB-13" value="Calcula el salario total con bonificación y repartos" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="690" y="576" width="300" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="orf2NmX3RiUvFOmpPiEB-14" value="Zona de reparto: A, B o C" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="690" y="545" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="orf2NmX3RiUvFOmpPiEB-17" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Monto total de ventas realizadas por el vendedor&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="-70" y="483" width="140" height="77" as="geometry" />
@@ -827,6 +815,66 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="208" y="321" as="sourcePoint" />
             <mxPoint x="328" y="321" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-35" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Cantidad de repartos realizados en el mes&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="450" width="140" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-36" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Zona de reparto: A, B o C&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1222" y="540" width="140" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-37" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1091" y="495" as="sourcePoint" />
+            <mxPoint x="1241" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-38" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="495" as="sourcePoint" />
+            <mxPoint x="1090" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-39" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="530" as="sourcePoint" />
+            <mxPoint x="1090" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-41" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="552.48" as="sourcePoint" />
+            <mxPoint x="1221" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-42" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Calcula el salario total con bonificación y repartos&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="470" y="460" width="140" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-43" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Método privado que verifica si la zona es válida&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="530" y="560" width="140" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-44" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="505" as="sourcePoint" />
+            <mxPoint x="760" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-45" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="663" y="616" as="sourcePoint" />
+            <mxPoint x="834" y="616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-47" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="505" as="sourcePoint" />
+            <mxPoint x="760" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orf2NmX3RiUvFOmpPiEB-48" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="586" as="sourcePoint" />
+            <mxPoint x="835" y="586" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
