@@ -1,0 +1,128 @@
+class Objeto:
+    """
+    Representa un objeto en el inventario del juego.
+    Cada objeto tiene un nombre, tipo, valor y peso.
+    """
+    def __init__(self, nombre, tipo, valor, peso):
+        self.nombre = nombre
+        self.tipo = tipo
+        self.valor = valor
+        self.peso = peso
+
+    def __str__(self):
+        # La representación en string para imprimir el objeto.
+        return (f"  - {self.nombre} (Tipo: {self.tipo}, "
+                f"Valor: {self.valor}, Peso: {self.peso})")
+
+class Inventario:
+    """
+    Gestiona el inventario del jugador usando una lista (arreglo dinámico).
+    Permite agregar, eliminar y consultar objetos.
+    """
+    def __init__(self):
+        # El inventario se almacena en una lista de Python.
+        self.inventario = []
+
+    def agregar_objeto(self, objeto):
+        """Añade un nuevo objeto al final del inventario."""
+        self.inventario.append(objeto)
+        print(f"\n[+] Objeto '{objeto.nombre}' agregado al inventario.")
+
+    def eliminar_objeto(self, nombre_objeto):
+        """Busca y elimina la primera ocurrencia de un objeto con el nombre especificado."""
+        if not self.inventario:
+            print("\n[!] El inventario está vacío. No se puede eliminar nada.")
+            return
+
+        for i, objeto in enumerate(self.inventario):
+            if objeto.nombre == nombre_objeto:
+                self.inventario.pop(i)
+                print(f"\n[-] Objeto '{nombre_objeto}' eliminado del inventario.")
+                return
+
+        print(f"\n[!] Objeto '{nombre_objeto}' no encontrado en el inventario.")
+
+    def usar_pocion_mas_ligera(self):
+        """Identifica y elimina la poción de menor peso en el inventario."""
+        if not self.inventario:
+            print("\n[!] No hay pociones para usar porque el inventario está vacío.")
+            return
+
+        pocion_mas_ligera = None
+        indice_pocion = -1
+        peso_minimo = float('inf')
+
+        # Primero, encontrar el índice de la poción más ligera
+        for i, objeto in enumerate(self.inventario):
+            if objeto.tipo == "Pocion" and objeto.peso < peso_minimo:
+                pocion_mas_ligera = objeto
+                peso_minimo = objeto.peso
+                indice_pocion = i
+
+        if indice_pocion != -1:
+            print(f"\n[*] Usando la poción más ligera: '{pocion_mas_ligera.nombre}' (Peso: {peso_minimo}).")
+            self.inventario.pop(indice_pocion)
+        else:
+            print("\n[!] No se encontraron pociones en el inventario.")
+
+    def calcular_peso_total(self):
+        """Recorre el inventario y retorna la suma de los pesos de todos los objetos."""
+        peso_total = 0.0
+        for objeto in self.inventario:
+            peso_total += objeto.peso
+        return peso_total
+
+    def mostrar_inventario_por_tipo(self):
+        """Muestra todos los objetos agrupados por su tipo, manteniendo el orden de adquisición."""
+        if not self.inventario:
+            print("\n[i] El inventario está vacío.")
+            return
+        
+        print("\n--- Inventario Agrupado por Tipo ---")
+        # Usamos un diccionario para agrupar objetos por tipo sin perder el orden de llegada
+        objetos_por_tipo = {}
+        for objeto in self.inventario:
+            # Si el tipo no está en el diccionario, lo añade con una lista vacía
+            objetos_por_tipo.setdefault(objeto.tipo, []).append(objeto)
+            
+        # Imprime los objetos de cada tipo
+        for tipo, lista_de_objetos in objetos_por_tipo.items():
+            print(f"\n-> {tipo}s:")
+            for objeto in lista_de_objetos:
+                print(objeto)
+        print("\n-----------------------------------")
+
+
+# --- Ejemplo de Uso ---
+if __name__ == "__main__":
+    # Creación del inventario
+    inventario_jugador = Inventario()
+
+    # Agregar objetos
+    inventario_jugador.agregar_objeto(Objeto("Espada de Acero", "Arma", 100, 15.5))
+    inventario_jugador.agregar_objeto(Objeto("Poción de Salud Menor", "Pocion", 25, 0.5))
+    inventario_jugador.agregar_objeto(Objeto("Hacha de Batalla", "Arma", 120, 20.0))
+    inventario_jugador.agregar_objeto(Objeto("Armadura de Cuero", "Armadura", 80, 25.0))
+    inventario_jugador.agregar_objeto(Objeto("Poción de Maná", "Pocion", 30, 0.8))
+    inventario_jugador.agregar_objeto(Objeto("Poción de Salud Mayor", "Pocion", 50, 1.0))
+
+    # Mostrar inventario por tipo
+    inventario_jugador.mostrar_inventario_por_tipo()
+
+    # Calcular y mostrar peso total
+    peso = inventario_jugador.calcular_peso_total()
+    print(f"\n[*] Peso total del inventario: {peso:.2f} kg.")
+
+    # Usar la poción más ligera
+    inventario_jugador.usar_pocion_mas_ligera()
+
+    # Eliminar un objeto existente y uno no existente
+    inventario_jugador.eliminar_objeto("Hacha de Batalla")
+    inventario_jugador.eliminar_objeto("Escudo Mágico")
+
+    # Mostrar inventario final
+    inventario_jugador.mostrar_inventario_por_tipo()
+    
+    # Calcular y mostrar peso final
+    peso_final = inventario_jugador.calcular_peso_total()
+    print(f"\n[*] Peso final del inventario: {peso_final:.2f} kg.")
