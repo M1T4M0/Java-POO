@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" version="28.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" version="28.1.2">
   <diagram name="Página-1" id="tQN3K0fjcN7LDT4bnmvT">
-    <mxGraphModel dx="4747" dy="2594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7834" dy="4009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" style="" parent="0" />
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-2" value="Definición: Paso a paso, modificando el estado del programa." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-2" value="&lt;b&gt;Definición:&lt;/b&gt; Varias tareas progresan de manera intercalada compartiendo recursos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
           <mxGeometry x="670" y="260" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-5" value="Ventajas:&lt;br data-end=&quot;310&quot; data-start=&quot;307&quot;&gt;&lt;br/&gt;Fácil de entender para principiantes.&lt;br data-end=&quot;350&quot; data-start=&quot;347&quot;&gt;&lt;br/&gt;Muy eficiente en tareas de bajo nivel.&lt;br data-end=&quot;391&quot; data-start=&quot;388&quot;&gt;&lt;br/&gt;Amplio soporte en lenguajes y herramientas." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-5" value="&lt;b&gt;Ventajas:&lt;/b&gt;&lt;br data-end=&quot;310&quot; data-start=&quot;307&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Mejor uso del procesador&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Interacción fluida&lt;/li&gt;&lt;li&gt;Escalabilidad&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFF99;" parent="1" vertex="1">
           <mxGeometry x="470" y="430" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-6" value="Desventajas:&lt;br data-end=&quot;452&quot; data-start=&quot;449&quot;&gt;&lt;br/&gt;Código propenso a errores si crece demasiado.&lt;br data-end=&quot;500&quot; data-start=&quot;497&quot;&gt;&lt;br/&gt;Difícil de mantener y escalar en sistemas grandes.&lt;br data-end=&quot;553&quot; data-start=&quot;550&quot;&gt;&lt;br/&gt;Menor reutilización de componentes." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-6" value="&lt;b&gt;Desventajas:&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Problemas de sincronización&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Difícil de depurar&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" parent="1" vertex="1">
           <mxGeometry x="805" y="430" width="290" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-8" value="Subtipos:&lt;br data-end=&quot;603&quot; data-start=&quot;600&quot;&gt;&lt;br/&gt;Estructurada: bucles, condicionales, funciones.&lt;br data-end=&quot;653&quot; data-start=&quot;650&quot;&gt;&lt;br/&gt;Procedimental: funciones/procedimientos reutilizables.&lt;br data-end=&quot;710&quot; data-start=&quot;707&quot;&gt;&lt;br/&gt;Modular: código dividido en módulos." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-8" value="&lt;b&gt;Subtipos:&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Hilos&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Procesos&lt;/li&gt;&lt;li&gt;Asincronía&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="1150" y="430" width="290" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6TMwM8I6Ds__LiO6crbM-9" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Concurrente&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCCCC;" parent="1" vertex="1">
@@ -25,7 +25,7 @@
             <mxPoint x="1030" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-12" value="Ejemplos: C, C++, Java, Python (modo imperativo)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-12" value="Java (threads), Go, Erlang" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
           <mxGeometry x="1070" y="260" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6TMwM8I6Ds__LiO6crbM-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6TMwM8I6Ds__LiO6crbM-2" target="6TMwM8I6Ds__LiO6crbM-12" edge="1">
@@ -52,16 +52,16 @@
             <mxPoint x="1300" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-17" value="Definición: Se describe qué se quiere lograr, sin detallar los pasos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-17" value="&lt;b&gt;Definición:&lt;/b&gt; Se describe qué se quiere lograr, sin detallar los pasos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
           <mxGeometry x="-1240" y="270" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-18" value="Ventajas:&lt;br data-end=&quot;882&quot; data-start=&quot;879&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Código más claro y conciso.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Más fácil razonar sobre el resultado&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Reduce errores de control de flujo&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-18" value="&lt;b&gt;Ventajas:&lt;/b&gt;&lt;br data-end=&quot;882&quot; data-start=&quot;879&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Código más claro y conciso.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Más fácil razonar sobre el resultado&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Reduce errores de control de flujo&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFF99;" parent="1" vertex="1">
           <mxGeometry x="-1440" y="440" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-19" value="Desventajas:&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Puede ser menos eficiente&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Curva de aprendizaje más alta&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Menos flexible en ciertas tareas&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-19" value="&lt;b&gt;Desventajas:&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Puede ser menos eficiente&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Curva de aprendizaje más alta&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Menos flexible en ciertas tareas&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" parent="1" vertex="1">
           <mxGeometry x="-1105" y="440" width="290" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-20" value="Subtipos:&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Funcional: funciones puras, sin efectos secundarios&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Lógico: basado en reglas lógicas&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-20" value="&lt;b&gt;Subtipos:&lt;br&gt;&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Funcional: funciones puras, sin efectos secundarios&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Lógico: basado en reglas lógicas&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFD966;" parent="1" vertex="1">
           <mxGeometry x="-760" y="440" width="290" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6TMwM8I6Ds__LiO6crbM-21" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Declarativo&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCCCC;" parent="1" vertex="1">
@@ -100,13 +100,13 @@
             <mxPoint x="-610" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-28" value="Definición: Organiza en objetos con atributos y métodos." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-28" value="&lt;b&gt;Definición:&lt;/b&gt; Organiza en objetos con atributos y métodos." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
           <mxGeometry x="-280" y="580" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-29" value="Ventajas:&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Favorece reutilización (herencia, polimorfismo).&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Código modular y mantenible.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cercano a la forma de pensar en el mundo real.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-29" value="&lt;b&gt;Ventajas:&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Favorece reutilización (herencia, polimorfismo).&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Código modular y mantenible.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cercano a la forma de pensar en el mundo real.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFF99;" parent="1" vertex="1">
           <mxGeometry x="-310" y="760" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-31" value="Desventajas:&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Complejidad extra en proyectos pequeños.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Mal uso de herencia = acoplamiento.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Mayor consumo de memoria.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-31" value="&lt;b&gt;Desventajas:&lt;br&gt;&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Complejidad extra en proyectos pequeños.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Mal uso de herencia = acoplamiento.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Mayor consumo de memoria.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" parent="1" vertex="1">
           <mxGeometry x="20" y="760" width="290" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6TMwM8I6Ds__LiO6crbM-32" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;Orientada a Objetos (POO)&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCCCC;" parent="1" vertex="1">
@@ -145,13 +145,13 @@
             <mxPoint x="-180" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-40" value="Definición: Responde a cambios de datos o eventos asíncronos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-40" value="&lt;b&gt;Definición:&lt;/b&gt; Responde a cambios de datos o eventos asíncronos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
           <mxGeometry x="-1240" y="-660" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-41" value="Ventajas:&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ideal para apps interactivas y tiempo real.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Manejo eficiente de flujos dinámicos&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-41" value="&lt;b&gt;Ventajas:&lt;br&gt;&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ideal para apps interactivas y tiempo real.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Manejo eficiente de flujos dinámicos&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFF99;" parent="1" vertex="1">
           <mxGeometry x="-1340" y="-480" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-42" value="Desventajas:&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Curva de aprendizaje alta.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Depuración complicada&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-42" value="&lt;b&gt;Desventajas:&lt;br&gt;&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Curva de aprendizaje alta.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Depuración complicada&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" parent="1" vertex="1">
           <mxGeometry x="-857" y="-480" width="290" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6TMwM8I6Ds__LiO6crbM-43" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Reactivo&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCCCC;" parent="1" vertex="1">
@@ -184,19 +184,19 @@
             <mxPoint x="-1140" y="-530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-50" value="&lt;strong data-end=&quot;1249&quot; data-start=&quot;1234&quot;&gt;Definición:&lt;/strong&gt; Basada en hechos y reglas de la lógica matemática." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-50" value="&lt;strong data-end=&quot;1249&quot; data-start=&quot;1234&quot;&gt;Definición:&lt;/strong&gt; Basada en hechos y reglas de la lógica matemática" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
           <mxGeometry x="680" y="-690" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-51" value="&lt;div style=&quot;text-align: center;&quot;&gt;Ventajas:&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;deal para IA y sistemas expertos, expresiva para búsqueda.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;align=left;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-51" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;Ventajas:&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;Ideal para IA y sistemas expertos&lt;/li&gt;&lt;li&gt;Expresiva para búsqueda&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFF99;align=left;" parent="1" vertex="1">
           <mxGeometry x="570" y="-510" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-52" value="Desventajas:&lt;div&gt;&lt;br&gt;&lt;div&gt;Poco eficiente en cálculos, curva de aprendizaje alta.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-52" value="&lt;b&gt;Desventajas:&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Poco eficiente en cálculos&amp;nbsp;&lt;/li&gt;&lt;li&gt;Curva de aprendizaje alta&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" parent="1" vertex="1">
           <mxGeometry x="1050" y="-510" width="290" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6TMwM8I6Ds__LiO6crbM-53" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Lógica&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="890" y="-350" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-55" value="&lt;span data-end=&quot;2838&quot; data-start=&quot;2825&quot;&gt;Ejemplos&lt;/span&gt;&lt;strong data-end=&quot;2838&quot; data-start=&quot;2825&quot;&gt;:&lt;/strong&gt; Prolog, Mercury." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-55" value="&lt;b&gt;&lt;span data-end=&quot;2838&quot; data-start=&quot;2825&quot;&gt;Ejemplos&lt;/span&gt;&lt;span data-end=&quot;2838&quot; data-start=&quot;2825&quot;&gt;:&lt;/span&gt;&lt;/b&gt; Prolog, Mercury" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
           <mxGeometry x="1080" y="-690" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6TMwM8I6Ds__LiO6crbM-56" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6TMwM8I6Ds__LiO6crbM-50" target="6TMwM8I6Ds__LiO6crbM-55" edge="1">
@@ -226,13 +226,13 @@
         <mxCell id="6TMwM8I6Ds__LiO6crbM-69" value="&lt;strong data-end=&quot;928&quot; data-start=&quot;913&quot;&gt;Definición:&lt;/strong&gt; Instrucciones ejecutadas una tras otra en orden lineal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
           <mxGeometry x="-280" y="-940" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-70" value="Ventajas:&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Simple&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Predecible&lt;/li&gt;&lt;li&gt;Buena para programas pequeños&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-70" value="&lt;b&gt;Ventajas:&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Simple&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Predecible&lt;/li&gt;&lt;li&gt;Buena para programas pequeños&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFF99;" parent="1" vertex="1">
           <mxGeometry x="-400" y="-760" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-71" value="Desventajas:&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Lenta en procesos grandes&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;No aprovecha multinúcleo.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-71" value="&lt;b&gt;Desventajas:&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Lenta en procesos grandes&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;No aprovecha multinúcleo.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" parent="1" vertex="1">
           <mxGeometry x="120" y="-760" width="290" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-72" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;Secuencial&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCCCC;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-72" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Secuencial&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="-70" y="-620" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="6TMwM8I6Ds__LiO6crbM-74" value="C, Pascal, BASIC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
@@ -262,7 +262,7 @@
             <mxPoint x="-180" y="-810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6TMwM8I6Ds__LiO6crbM-81" value="&lt;font style=&quot;font-size: 45px;&quot;&gt;Paradigmas de la Programación&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCCCC;" parent="1" vertex="1">
+        <mxCell id="6TMwM8I6Ds__LiO6crbM-81" value="&lt;font style=&quot;font-size: 45px;&quot;&gt;Paradigmas de la Programación&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="-190" y="-220" width="380" height="380" as="geometry" />
         </mxCell>
         <mxCell id="6TMwM8I6Ds__LiO6crbM-84" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#FF3333;" parent="1" source="6TMwM8I6Ds__LiO6crbM-81" target="6TMwM8I6Ds__LiO6crbM-32" edge="1">
@@ -335,6 +335,58 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="960" y="-650" as="sourcePoint" />
             <mxPoint x="980" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVeAg6q1IMAMvoZI2eKl-1" value="&lt;strong data-end=&quot;551&quot; data-start=&quot;536&quot;&gt;Definición:&lt;/strong&gt; Divide un problema en subtareas que se ejecutan al mismo tiempo en varios núcleos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="135" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bVeAg6q1IMAMvoZI2eKl-2" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;685&quot; data-start=&quot;672&quot;&gt;Ventajas:&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Mayor velocidad&lt;/li&gt;&lt;li&gt;Ideal para cálculos intensivos y Big Data&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFF99;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="-265" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bVeAg6q1IMAMvoZI2eKl-3" value="&lt;strong data-end=&quot;764&quot; data-start=&quot;748&quot;&gt;Desventajas:&lt;/strong&gt;&amp;nbsp;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Requiere hardware especial&lt;/li&gt;&lt;li&gt;Diseño complejo&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="55" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bVeAg6q1IMAMvoZI2eKl-4" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Paralela&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="-115" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bVeAg6q1IMAMvoZI2eKl-5" value="&lt;strong data-end=&quot;650&quot; data-start=&quot;637&quot;&gt;Ejemplos:&lt;/strong&gt; OpenMP, CUDA, MPI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="-295" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bVeAg6q1IMAMvoZI2eKl-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1850" y="-225" as="sourcePoint" />
+            <mxPoint x="1850" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVeAg6q1IMAMvoZI2eKl-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1570" y="55" as="sourcePoint" />
+            <mxPoint x="1570" y="-145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVeAg6q1IMAMvoZI2eKl-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1270" y="-45.83" as="sourcePoint" />
+            <mxPoint x="1850" y="-45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVeAg6q1IMAMvoZI2eKl-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-50" width="940" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="bVeAg6q1IMAMvoZI2eKl-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#FF3333;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="-45.62" as="sourcePoint" />
+            <mxPoint x="1140" y="-45.62" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVeAg6q1IMAMvoZI2eKl-13" value="&lt;strong data-end=&quot;825&quot; data-start=&quot;812&quot;&gt;Subtipos:&lt;/strong&gt;&amp;nbsp;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Paralelismo de datos&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&amp;nbsp;Paralelismo de tareas&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="-105" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bVeAg6q1IMAMvoZI2eKl-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="bVeAg6q1IMAMvoZI2eKl-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1850" y="-45" as="sourcePoint" />
+            <mxPoint x="2360" y="-44.730000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
